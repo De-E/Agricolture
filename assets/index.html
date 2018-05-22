@@ -4,13 +4,26 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
+<html ng-app="agricolture">
     <head>
-        <title>TODO supply a title</title>
+        <title>Agricoltural</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body>
-        <div>Assets</div>
+    <body ng-controller="alfa">
+        <input id="name" />
+        <input id="pssw" />
+        <button>Login</button>
+        
+        <div id="content">{{alfa}}</div>
+        
+        <!-- Libs -->
+        <script src="node_modules/angular/angular.min.js" type="text/javascript"></script>
+        <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+        
+        <script src="js/application.js" type="text/javascript"></script>
     </body>
 </html>

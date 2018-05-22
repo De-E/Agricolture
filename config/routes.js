@@ -27,6 +27,8 @@ module.exports.routes = {
   /*'/': {
     view: 'pages/home'
   },*/
+    '/alfa': 'UserController.login',
+    
 
   /***************************************************************************
   *                                                                          *
